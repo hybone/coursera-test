@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    position: relative;
+    border: solid 1px black;
+    background-color: bisque;
+    margin: 1%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    float: right;
+    border: solid 1px black;
+    margin: 0;
+    background-color: aquamarine;
+    font-size: 100%;
+}
+
+div{
+    clear: right;
+    padding: 10px;
+}
+
+/*tablet*/
+@media (max-width : 991px) and (min-width : 768px){
+    .sameLine{
+        width: 48%;
+        float: left;
+    }
+
+    #section3 {
+        clear: left;
+    }
+}
+
+/*desktop*/
+@media (min-width : 992px){
+    section{
+        width: 31.3%;
+        float: left;
+    }
+}
